@@ -1,0 +1,21 @@
+{
+	"name":             "iwq/project_name",
+	"description":      "Project description",
+	"homepage":         "http://intraworq.com",
+	"license":          "proprietary",
+	
+	"authors": [{
+		"name":         "Bolesław Tekielski",
+		"email":        "bt@intraworq.com"
+	}],
+
+"require": {
+		"php": "~5.5",
+		},
+		
+	"autoload": {
+		"psr-4" : {
+			"IntraworQ\\": "src/IntraworQ/"
+		}
+	}
+}
