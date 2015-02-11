@@ -10,7 +10,10 @@
 	}],
 
 "require": {
-		"php": "~5.5",
+		"php": "~5.3",
+		"slim/slim": "2.*",
+		"slim/views": "*",
+		"smarty/smarty": "~3.1"
 		},
 		
 	"autoload": {
